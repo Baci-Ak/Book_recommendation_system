@@ -8,8 +8,17 @@ This project aims to build a personalized book recommendation system that sugges
 
 <img width="873" alt="Screenshot 2023-08-01 at 2 07 07 PM" src="https://github.com/Baci-Ak/Book_recommendation_system/assets/134199508/c51ebd47-5530-42cf-9dee-42363dd35f02">
 
+### 🛠️ Datasets
 
-### 💻 Project Structure
+* Books.csv: Books are identified by their respective ISBN. Invalid ISBNs have already been removed from the dataset. Moreover, some content-based information is given (Book- Title, Book-Author, Year-Of-Publication, Publisher), obtained from Amazon Web Services. Note that in case of several authors, only the first is provided. URLs linking to cover images are also given, appearing in three different flavours (Image-URL-S, Image-URL-M, Image-URL-L), i.e., small, medium, large. These URLs point to the Amazon web site.
+
+* Book-Ratings.csv: Contains the book rating information. Ratings (Book-Rating) are either explicit, expressed on a scale from 1-10 (higher values denoting higher appreciation), or implicit, expressed by 0. [Datasets](https://github.com/Baci-Ak/Datasets)
+
+<img width="1151" alt="Screenshot 2023-08-01 at 4 24 26 PM" src="https://github.com/Baci-Ak/Book_recommendation_system/assets/134199508/79cbd313-dd16-40c8-a949-60522a809c3e">
+
+
+
+#### 💻 Project Structure
 * Data Extraction and Preprocessing: The initial step involved extracting the Bookrating.csv and Books.csv datasets from web sources using Apache Nifi. The datasets were then joined based on important features and separated into matched and unmatched observations using item IDs. The matched dataset was ingested into Hadoop (HDFS) and later create table in Apache Hive.
 
 <img width="1439" alt="Screenshot 2023-07-31 at 10 17 24 AM" src="https://github.com/Baci-Ak/Book_recommendation_system/assets/134199508/cd2d9565-26ee-4f1b-bf8d-b03c0d2aa46a">
