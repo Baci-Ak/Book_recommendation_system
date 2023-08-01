@@ -10,7 +10,7 @@ This project aims to build a personalized book recommendation system that sugges
 
 
 ### 💻 Project Structure
-* Data Extraction and Preprocessing: The initial step involved extracting the Bookrating.csv and Books.csv datasets from web sources using Apache Nifi. The datasets were then joined based on important features and separated into matched and unmatched observations using item IDs. The matched dataset was ingested into Hadoop using Apache Hive.
+* Data Extraction and Preprocessing: The initial step involved extracting the Bookrating.csv and Books.csv datasets from web sources using Apache Nifi. The datasets were then joined based on important features and separated into matched and unmatched observations using item IDs. The matched dataset was ingested into Hadoop (HDFS) and later create table in Apache Hive.
 
 <img width="1439" alt="Screenshot 2023-07-31 at 10 17 24 AM" src="https://github.com/Baci-Ak/Book_recommendation_system/assets/134199508/cd2d9565-26ee-4f1b-bf8d-b03c0d2aa46a">
 
