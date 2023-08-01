@@ -36,7 +36,7 @@ Collaborative Filtering: Collaborative filtering techniques, such as user-based 
 
 * User Interface: A user-friendly interface was created to allow users to interact with the system and perform various tasks, including exploring book recommendations and customizing recommendation options.
 
-####  🔍 Usage Instructions
+#####  🔍 Usage Instructions
 To run the recommendation system and explore book recommendations:
 
 1. Ensure you have Apache Nifi and Hadoop installed and configured if you want to automate the flow the data.
@@ -51,7 +51,7 @@ Run the data extraction and preprocessing pipeline in Apache Nifi to extract, jo
 5. Use the user interface function to interact with the system, explore personalized book recommendations, and customize recommendation options.
 
 
-##### 🚠  Improvements and Future Work
+###### 🚠  Improvements and Future Work
 
 The Personalized Book Recommendation System can be enhanced in several ways:
 
