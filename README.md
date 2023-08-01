@@ -35,6 +35,25 @@ Run the data extraction and preprocessing pipeline in Apache Nifi to extract, jo
 
 2. Execute the EDA code in Python to understand the dataset's characteristics and rating distributions.
 
-3. Instantiate the recommendation system class, select the desired similarity metrics, and make recommendations for a target user.
+3. Instantiate the book_recommendation_engine class, select the desired similarity metrics, and make recommendations for a target user.
 
-4. Use the user interface function to interact with the system, explore personalized book recommendations, and customize recommendation options.
+4. to make recommendation based on KNN, Instantiate the Knn_recommendationEngine class and invoke the knn_similarity method to find similarity between a user and k users, OR invoke the KNN_recommendation method to recommendation to a target user. finally, invoke the evaluate_similarity_metrics method to evaluate teh metrices used in making recommendation. 
+
+5. Use the user interface function to interact with the system, explore personalized book recommendations, and customize recommendation options.
+
+
+##### 🚠  Improvements and Future Work
+
+The Personalized Book Recommendation System can be enhanced in several ways:
+
+* Implement hybrid recommendation approaches by combining content-based and collaborative filtering techniques.
+
+* Handle the cold start problem for new users and books with limited data using alternative methods.
+
+* Fine-tune similarity metrics and weighting schemes to improve recommendation accuracy.
+
+* Incorporate user feedback and preferences for more personalized recommendations.
+
+* Optimize system scalability to handle large-scale datasets and real-time recommendation requests.
+
+* Conduct A/B testing to validate system improvements and compare recommendation algorithms.
